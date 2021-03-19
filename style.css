@@ -4029,7 +4029,7 @@ body,
     z-index: 1;
 }
 
-.register-area .countdown-inner::after {
+/*.register-area .countdown-inner::after {
     position: absolute;
     left: 0;
     bottom: -24px;
@@ -4042,7 +4042,7 @@ body,
     background-size: contain;
     z-index: -1;
     opacity: 0.3;
-}
+}*/
 
 .register-area .form-box .heading {
     border-bottom: 1px solid #e7e7e7;
@@ -4120,7 +4120,7 @@ body,
 
 .register-area .form-box button {
   padding: 12px 40px;
-  background: linear-gradient(90deg, rgba(212,4,47,1) 0%, rgba(255,25,73,1) 75%);
+  background: linear-gradient(90deg, rgba(184, 51, 101) 0%, rgba(184, 51, 101) 75%);
   transition: all 0.35s ease-in-out;
   box-shadow: 0 0 10px rgba(255, 136, 0, 0.5), inset 0 0 1px 1px #b83365;
   color: #ffffff;
