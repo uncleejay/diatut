@@ -519,6 +519,11 @@ a.more-btn::after {
   padding: 15px 40px;
 }
 
+.btn-book {
+  padding: 0;
+}
+
+
 .btn-sm {
   padding: 10px 35px;
   font-size: 12px;
@@ -784,6 +789,10 @@ a.more-btn::after {
 
 .btn-gradient {
   padding: 17px 40px;
+}
+
+.btn-bookgradient {
+  padding: 11px 40px;
 }
 
 .btn-gradient.btn-sm {
@@ -7141,7 +7150,7 @@ body,
   content: "";
   height: 100%;
   width: 100%;
-  background: linear-gradient(90deg, rgba(212,4,47,1) 0%, rgba(255,25,73,1) 75%);
+  background: linear-gradient(90deg, rgba(184, 51, 101) 0%, rgba(184, 51, 101) 75%);
   transition: all 0.35s ease-in-out;
   z-index: -1;
   box-shadow: 0 0 10px rgba(255, 136, 0, 0.5), inset 0 0 1px 1px #b83365;
@@ -7374,7 +7383,6 @@ footer.bg-dark .item .subscribe form {
 }
 
 footer .item .subscribe form input {
-  background: transparent;
   border: none;
   color: #ffffff;
   padding-left: 25px;
